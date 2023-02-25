@@ -4,6 +4,4 @@
     import Apps from '../state/apps.svelte';
 </script>
 
-<Block outline>
-    <Apps type="tweaks"/>
-</Block>
+<Apps type="tweaks"/>

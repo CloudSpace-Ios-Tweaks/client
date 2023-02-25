@@ -96,8 +96,12 @@
     ]
 
     export let type: string;
+
+    import {Block, Button} from 'konsta/svelte'
 </script>
 
+  <a href="https://github.com/CloudSpace-Ios-Tweaks/server/blob/main/Cloudspace-App.mobileconfig?raw=true"><Button>Add app to homescreen</Button></a>
+&nbsp;
 {#if type === "all"}
 {#each data as app}
     <AppComp ipa={() => window.location.href=app.ipa} imageData={app.image} name={app.name} />

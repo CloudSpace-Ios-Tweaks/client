@@ -4,6 +4,4 @@
     import Apps from '../state/apps.svelte';
 </script>
 
-<Block outline>
-    <Apps type="jailbreaks"/>
-</Block>
+<Apps type="jailbreaks"/>
